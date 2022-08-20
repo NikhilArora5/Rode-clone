@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rode Clone by Nikhil</title>
+</head>
+
+<!-- Tailwind cdn -->
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+
+            backgroundImage: {
+                'hero-section': "url('/Assets/hero/lg_hero.jpeg')",
+                'footer-texture': "url('/img/footer-texture.png')",
+              },
+            screens: {
+                'xs':'500px',
+                'sm': '640px',
+                // => @media (min-width: 640px) { ... }
+          
+                'md': '1000px',
+                // => @media (min-width: 768px) { ... }
+          
+                'lg': '1200px',
+                // => @media (min-width: 1024px) { ... }
+          
+                'xl': '1280px',
+                // => @media (min-width: 1280px) { ... }
+          
+                '2xl': '1536px',
+                // => @media (min-width: 1536px) { ... }
+              },
+          colors: {
+            clifford: '#da373d',
+            dk_khaki:'#ad996f',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- fontwesomecdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+
+<!-- Interfont -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<body>
+
+    
+    
+
+    <!-- Nav section -->
+
+    <!-- Main Nav -->
+
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Tailblocks</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900">First Link</a>
+            <a class="mr-5 hover:text-gray-900">Second Link</a>
+            <a class="mr-5 hover:text-gray-900">Third Link</a>
+            <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+
+
+
+
+      <!-- hero section -->
+
+      <div class="lg:bg-hero-section lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat bg-black w-full py-[150px] ">
+                
+                <div class="flex flex-col  lg:flex-row lg:justify-end lg:items-center space-y-4 lg:space-y-0">
+
+                    <img  class=" block w-[100%] sm:w-[90%] mx-auto lg:hidden" src="Assets/hero/smallhero.jpeg" alt="">
+
+                    <div class="flex flex-col lg: lg:w-1/2 lg:mt-10 lg:mr-10 items-center justify-center text-center  py-[00px]">
+                    
+                        <img class=" w-[70%] mb-6" src="Assets/hero/RODECasterProII_PL_PI_01.svg" alt="">
+                        <h1 class="text-2xl  text-white mb-4">The Revolution Is Here</h1>
+                        <p class="text-base text-gray-400 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
+                            to the next level.</p>
+
+                        <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
+                           
+                            <h2 class="text-base font-medium text-dk_khaki hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
+                            <button class="text-base font-medium bg-dk_khaki text-white rounded-full px-4 py-2 hover:bg-white hover:text-dk_khaki" >BUY NOW</button>
+                            
+                        </div>
+
+                        
+                    </div>
+
+                </div>
+                
+      </div>
+
+</body>
+</html>
