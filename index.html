@@ -56,6 +56,7 @@
             dk_khaki:'#ad996f',
             ghostwhite:'#f8f9fa',
             ft_gray:'#8d7a65',
+            silver:'#767676',
           }
         }
       }
@@ -71,34 +72,53 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<body>
+<body class="m-0">
 
     
     
 
     <!-- Nav section -->
 
-    <!-- Main Nav -->
+   
 
-    <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span class="ml-3 text-xl">Tailblocks</span>
-          </a>
-          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+     <!-- top-nav -->
+    <hr class="bg-dk_kkhaki">
+    <div class="hidden text-gray-500 md:w-[80%] mx-auto md:flex   md:flex-row items-center justify-between  " >
+        <div class="hidden   md:flex flex-row justify-evenly items-center space-x-1  ">
+            <i class="fa-solid fa-bars mr-2"></i>  
+            <i class="fa-solid fa-location-dot "></i> 
+            <h1>  EN </h1>
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+
+        <i class="fa-solid fa-user"></i>
+    </div>
+    <hr class="bg-dk_kkhaki ">
+
+    <header class="text-gray-600 z-10 bg-white body-font w-full sticky top-0">
+       
+       
+
+        <!--    Sticky  mid-nav -->
+        <div class="  sticky  top-0 md:w-[80%] mx-auto flex  p-5  md:flex-row items-center justify-between ">
+            <div class="md:hidden absolute left-[5px] flex flex-row justify-evenly items-center space-x-1  ">
+                <i class="fa-solid fa-bars mr-2"></i>  
+                <i class="fa-solid fa-location-dot "></i> 
+                <h1>  EN </h1>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+
+         <img class=" w-[100px] mx-auto md:mx-0" src="Assets/Mid-sections/nav/nav-logo.svg" alt="">
+          <nav class="hidden md:flex md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <a class="mr-5 hover:text-gray-900">First Link</a>
             <a class="mr-5 hover:text-gray-900">Second Link</a>
             <a class="mr-5 hover:text-gray-900">Third Link</a>
             <a class="mr-5 hover:text-gray-900">Fourth Link</a>
           </nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+         
+            <i class="fa-solid text-xl fa-magnifying-glass"></i>
+          
         </div>
       </header>
 
@@ -118,7 +138,7 @@
                     
                         <img class=" w-[70%] mb-6" src="Assets/hero/RODECasterProII_PL_PI_01.svg" alt="">
                         <h1 class="text-2xl  text-white mb-4">The Revolution Is Here</h1>
-                        <p class="text-base text-gray-400 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
+                        <p class="text-base text-gray-500 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
                             to the next level.</p>
 
                         <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
@@ -142,7 +162,7 @@
 <!-- MIDE SECTIONS -->
 
 <!-- nth-100 -->
-<div class="lg:bg-nth-100 lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat  lg:w-full pb-4 lg:py-[150px] ">
+<div class="lg:bg-nth-100 lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat  lg:w-full pb-4 lg:py-[150px] mt-[50px] lg:mt-[0px]">
                 
     <div class="flex flex-col  lg:flex-row-reverse lg:justify-end lg:items-center space-y-4 lg:space-y-0">
 
@@ -151,13 +171,13 @@
         <div class="flex flex-col lg: lg:w-1/2 lg:mt-10 lg:mr-10 items-center justify-center text-center  py-[00px]">
             <img  class="block w-[70%]  mx-auto  mb-6" src="Assets/Mid-sections/sm-nth-100-text.svg" alt="">
             
-            <h1 class="text-2xl  lg:text-white mb-4">The Revolution Is Here</h1>
-            <p class="text-base text-gray-400 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
-                to the next level.</p>
+            <h1 class="text-2xl  lg:text-white mb-4">Your Search For The Perfect Headphones Is Over</h1>
+            <p class="text-base text-gray-500  lg:text-gray-500 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">Experience sound like never before with the NTH-100s. Exceptional 
+                sonic performance, superior comfort and iconic looks that inspires creativity.</p>
 
             <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
                
-                <h2 class="text-base font-medium text-dk_khaki hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
+                <h2 class="text-base font-medium text-dk_khaki lg:hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
                 <button class="text-base font-medium bg-dk_khaki text-white rounded-full px-4 py-2 hover:bg-white hover:text-dk_khaki border-2 border-dk_khaki" >BUY NOW</button>
                 
             </div>
@@ -176,7 +196,7 @@
 <!-- NT_USB -->
 
 
-<div class="lg:bg-nt-usb lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat  lg:w-full pb-4 lg:py-[150px] ">
+<div class="lg:bg-nt-usb lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat  lg:w-full pb-4 lg:py-[150px] mt-[50px] lg:mt-[0px]">
                 
     <div class="flex flex-col  lg:flex-row lg:justify-end lg:items-center space-y-4 lg:space-y-0">
 
@@ -185,13 +205,13 @@
         <div class="flex flex-col lg: lg:w-1/2 lg:mt-10 lg:mr-10 items-center justify-center text-center  py-[00px]">
             <!-- <img  class="block w-[70%]  mx-auto lg:hidden mb-6" src="Assets/Mid-sections/sm-wireless-text.svg" alt=""> -->
             <img class=" w-[70%] mb-6" src="Assets/Mid-sections/NT-USB/sm-NT-usb-text.svg" alt="">
-            <h1 class="text-2xl   mb-4">The Revolution Is Here</h1>
-            <p class="text-base text-gray-400 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
-                to the next level.</p>
+            <h1 class="text-2xl   mb-4">TStudio-Quality Recording, Made Simple</h1>
+            <p class="text-base text-gray-500 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, 
+                all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.</p>
 
             <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
                
-                <h2 class="text-base font-medium text-dk_khaki hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
+                <h2 class="text-base font-medium text-dk_khaki lg:hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
                 <button class="text-base font-medium bg-dk_khaki text-white rounded-full px-4 py-2 hover:bg-white hover:text-dk_khaki border-2 border-dk_khaki" >BUY NOW</button>
                 
             </div>
@@ -208,7 +228,7 @@
 
 
 <!-- PODMIC -->
-<div class="lg:bg-Podmic lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat lg:bg-black lg:w-full pb-4 lg:py-[150px] ">
+<div class="lg:bg-Podmic lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat lg:bg-black lg:w-full pb-4 lg:py-[150px] mt-[50px] lg:mt-[0px]">
                 
     <div class="flex flex-col  lg:flex-row-reverse lg:justify-end lg:items-center space-y-4 lg:space-y-0">
 
@@ -217,13 +237,13 @@
         <div class="flex flex-col lg: lg:w-1/2 lg:mt-10 lg:mr-10 items-center justify-center text-center  py-[00px]">
             <img  class="block w-[70%]  mx-auto lg:hidden mb-6" src="Assets/Mid-sections/pod-mic-text.svg" alt="">
             <img class="hidden lg:block w-[70%] mb-6" src="Assets/Mid-sections/lg-podmic-text.svg" alt="">
-            <h1 class="text-2xl  lg:text-white mb-4">The Revolution Is Here</h1>
-            <p class="text-base text-gray-400 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
-                to the next level.</p>
+            <h1 class="text-2xl  lg:text-white mb-4">Broadcast-grade Dynamic Microphone</h1>
+            <p class="text-base text-gray-500 lg:text-gray-300  font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">Give your voice that rich, broadcast sound with the PodMic. 
+                Perfect for livestreaming, voice-over, podcasting and gameplay.</p>
 
             <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
                
-                <h2 class="text-base font-medium text-dk_khaki hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
+                <h2 class="text-base font-medium text-dk_khaki lg:hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
                 <button class="text-base font-medium bg-dk_khaki text-white rounded-full px-4 py-2 hover:bg-white hover:text-dk_khaki border-2 border-dk_khaki" >BUY NOW</button>
                 
             </div>
@@ -239,7 +259,7 @@
 
 
 <!-- wirelss -->
-<div class="lg:bg-wireless lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat lg:bg-black lg:w-full pb-4 lg:py-[150px] ">
+<div class="lg:bg-wireless lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat lg:bg-black lg:w-full pb-4 lg:py-[150px] mt-[50px] lg:mt-[0px]">
                 
     <div class="flex flex-col  lg:flex-row lg:justify-end lg:items-center space-y-4 lg:space-y-0">
 
@@ -248,13 +268,13 @@
         <div class="flex flex-col lg: lg:w-1/2 lg:mt-10 lg:mr-10 items-center justify-center text-center  py-[00px]">
             <img  class="block w-[70%]  mx-auto lg:hidden mb-6" src="Assets/Mid-sections/sm-wireless-text.svg" alt="">
             <img class="hidden lg:block w-[70%] mb-6" src="Assets/Mid-sections/wireless-texr-img.svg" alt="">
-            <h1 class="text-2xl  lg:text-white mb-4">The Revolution Is Here</h1>
-            <p class="text-base text-gray-400 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
-                to the next level.</p>
+            <h1 class="text-2xl  lg:text-white mb-4">Next Generation Wireless Audio</h1>
+            <p class="text-base text-gray-500 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The Wireless GO II is the world’s most powerful and versatile wireless microphone. With an unparalleled 
+                feature set and ultra-compact form factor, this is next generation wireless audio for every creator.</p>
 
             <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
                
-                <h2 class="text-base font-medium text-dk_khaki hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
+                <h2 class="text-base font-medium text-dk_khaki lg:hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
                 <button class="text-base font-medium bg-dk_khaki text-white rounded-full px-4 py-2 hover:bg-white hover:text-dk_khaki border-2 border-dk_khaki" >BUY NOW</button>
                 
             </div>
@@ -267,7 +287,7 @@
 </div>
 
 <!-- NT_USB_MINI -->
-<div class="lg:bg-usb-mini lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat lg:bg-black lg:w-full pb-4 lg:py-[150px] ">
+<div class="lg:bg-usb-mini lg:h-[650px] lg:bg-cover lg:bg-center  lg:bg-no-repeat lg:bg-black lg:w-full pb-4 lg:py-[150px] mt-[50px] lg:mt-[0px]">
                 
     <div class="flex flex-col  lg:flex-row-reverse lg:justify-end lg:items-center space-y-4 lg:space-y-0">
 
@@ -276,13 +296,13 @@
         <div class="flex flex-col lg: lg:w-1/2 lg:mt-10 lg:mr-10 items-center justify-center text-center  py-[00px]">
             <img  class="block w-[70%]  mx-auto lg:hidden mb-6" src="Assets/Mid-sections/sm-usm-mini-text.svg" alt="">
             <img class="hidden lg:block w-[70%] mb-6" src="Assets/Mid-sections/lg-nt-usb-min-text.svg" alt="">
-            <h1 class="text-2xl  lg:text-white mb-4">The Revolution Is Here</h1>
-            <p class="text-base text-gray-400 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
-                to the next level.</p>
+            <h1 class="text-2xl  lg:text-white mb-4">Compact Sound, Incredibly Powerful</h1>
+            <p class="text-base  text-gray-500 lg:text-gray-300 font-medium text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The NT-USB Mini brings pristine studio sound to a compact USB microphone, and with RØDE Connect unlocking more power, more features 
+                and more control, it’s the perfect recording solution for podcasters, gamers and streamers.</p>
 
             <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
                
-                <h2 class="text-base font-medium text-dk_khaki hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
+                <h2 class="text-base font-medium text-dk_khaki lg:hover:text-white hover:cursor-pointer">LEARN MORE<i class="fa-solid fa-angle-right ml-2"></i></h2>
                 <button class="text-base font-medium bg-dk_khaki text-white rounded-full px-4 py-2 hover:bg-white hover:text-dk_khaki border-2 border-dk_khaki" >BUY NOW</button>
                 
             </div>
@@ -333,24 +353,26 @@
 
 <!-- MICROPHONES AND ACESSORIES -->
 
-      <section class=" w-[95%] md:w-[90%] lg:w-[100%] mx-auto mt-12">
+      <section class=" w-[95%] md:w-[90%] lg:w-[100%] mx-auto my-14 ">
+
+        <h1 class="text-silver text-2xl xs:text-4xl  mx-auto text-center font-medium mb-10 ">Explore The RØDE Range</h1>
 
         <div class="bg-microphone mb-1 xs:mb-4 py-10  sm:py-16 md:py-20 lg:py-24 px-8 w-full bg-contain  bg-center bg-no-repeat  mx-auto ">
-            <img  class="w-full m-auto" src="Assets/microphones/microphone-text.svg" alt="">
+            <img  class="w-full mx-auto lg:w-[90%]  m-auto" src="Assets/microphones/microphone-text.svg" alt="">
         </div>
 
         <div class="bg-interface mb-1 xs:mb-4 py-10  sm:py-16 md:py-20 lg:py-24 px-8 w-full bg-contain  bg-center bg-no-repeat  mx-auto ">
-            <img  class="w-full   z-10 " src="Assets/microphones/interfaces-text.svg" alt="">
+            <img  class="w-full mx-auto lg:w-[90%]" src="Assets/microphones/interfaces-text.svg" alt="">
         </div>
 
 
         
         <div class="bg-accesories mb-1 xs:mb-4 py-10  sm:py-16 md:py-20 lg:py-24 px-8 w-full bg-contain  bg-center bg-no-repeat  mx-auto ">
-            <img  class="w-full m-auto" src="Assets/microphones/accesries-text.svg" alt="">
+            <img  class="w-full mx-auto lg:w-[90%]" src="Assets/microphones/accesries-text.svg" alt="">
         </div>
 
         <div class="bg-software mb-1 xs:mb-4 py-10  sm:py-16 md:py-20 lg:py-24 px-8 w-full bg-contain  bg-center bg-no-repeat  mx-auto ">
-            <img  class="w-full m-auto" src="Assets/microphones/software-text.svg" alt="">
+            <img  class="w-full mx-auto lg:w-[90%]" src="Assets/microphones/software-text.svg" alt="">
         </div>
 
       </section>
@@ -377,18 +399,19 @@
 
 
 
-
+      <h1 class="text-dk_khaki text-2xl xs:text-4xl  mx-auto text-center font-medium mb-10 ">Latest From The RØDE Blog</h1>
      <section class="bg-ghostwhite">
+
 
                 <div class=" w-[75%] grid grid-cols-1 place-items-center sm:grid-cols-2 gap-x-4  mx-auto py-10 bg-ghostwhite gap-y-4 lg:gap-y-4" >
 
                         <div class="flex flex-col justify-center items-center text-center  py-4 bg-white ">
-                            <h1 class=" text-2xl  ">The Difference Between Large-Diaphragm and
+                            <h1 class=" text-2xl font-medium xs:w-[90%] mb-2 ">The Difference Between Large-Diaphragm and
                                  Small-Diaphragm Condenser Microphones</h1>
                     
                                 <img src="Assets/Blog-section/blog1.jpeg" alt="">
                     
-                                <p class="text-base text-black  text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">We explore the difference between large- and 
+                                <p class="text-lg my-6 text-black  text-center w-[100%] px-1 sm:px-0 sm:w-[70%] ">We explore the difference between large- and 
                                     small-diaphragm condenser microphones, and what each is best used for.</p>
                     
                                 <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
@@ -402,12 +425,12 @@
 
 
                         <div class="flex flex-col justify-center items-center text-center  py-4 bg-white ">
-                            <h1 class="text-2xl ">What is a Condenser Microphone and 
+                            <h1 class="text-2xl font-medium xs:w-[90%] mb-2 ">What is a Condenser Microphone and 
                                 When to Use One</h1>
                     
                                 <img src="Assets/Blog-section/blog2.jpeg" alt="">
                     
-                                <p class="text-base text-black  text-center w-[100%] px-1 sm:px-0 sm:w-[90%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
+                                <p class="text-lg my-6 text-black  text-center w-[100%] px-1 sm:px-0 sm:w-[90%]">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content 
                                     to the next level.</p>
                     
                                 <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
@@ -421,12 +444,12 @@
 
 
                     <div class="flex flex-col justify-center items-center text-center  bg-white py-4 ">
-                        <h1 class="text-2xl ">Firmware Version 1.0.7 for the 
+                        <h1 class="text-2xl mb-2 font-medium xs:w-[90%] ">Firmware Version 1.0.7 for the 
                             RØDECaster Pro II is Available Now</h1>
                 
                             <img src="Assets/Blog-section/blog3.jpeg" alt="">
                 
-                            <p class="text-base text-black  text-center w-[100%] px-1 sm:px-0 sm:w-[80%]">Firmware version 1.0.7 includes key feature additions, 
+                            <p class="text-lg my-6 text-black  text-center w-[100%] px-1 sm:px-0 sm:w-[80%]">Firmware version 1.0.7 includes key feature additions, 
                                 such as custom routing for USB and Bluetooth outputs, and more.</p>
                 
                             <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
@@ -439,11 +462,11 @@
                     </div>
 
                         <div class="flex flex-col justify-center items-center text-center bg-white py-4 ">
-                            <h1 class="text-2xl ">The RØDECaster Pro II Is Shipping Now</h1>
+                            <h1 class="text-2xl mb-2 font-medium  xs:w-[90%]">The RØDECaster Pro II Is Shipping Now</h1>
                     
                                 <img class="mt-6" src="Assets/Blog-section/blog4.jpeg" alt="">
                     
-                                <p class="text-base text-black  text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The world’s most powerful all-in-one 
+                                <p class="text-lg my-6 text-black  text-center w-[100%] px-1 sm:px-0 sm:w-[70%]">The world’s most powerful all-in-one 
                                     audio solution for content creators is now available worldwide.</p>
                     
                                 <div class="flex flex-row items-center space-x-2 mt-4 sm:mt-8">
