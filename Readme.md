@@ -1,5 +1,5 @@
 # RODE clone by Nikhil Arora
->Responsive Shopify clone designed using  Html , Tailwind Css.  
+>Responsive RODE clone designed using  Html , Tailwind Css.  
 
 
 ## Concepts and Learnings.
